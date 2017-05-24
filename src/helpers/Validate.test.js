@@ -20,7 +20,7 @@ describe('isValidLength method', () => {
 
 describe('isAlphaNumeric method', () => {
     it('alphanumeric string', () => {
-        expect(Validate.isAlphaNumeric('qwerty')).toBeTruthy();
+        expect(Validate.isAlphaNumeric('qwerty11')).toBeTruthy();
     });
 
     it('alphabetic string', () => {
